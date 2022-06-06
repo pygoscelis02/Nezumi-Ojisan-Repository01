@@ -10,7 +10,19 @@ body nav li{
     display: inline;
     padding-right: 30px;
 }
-body nav li a,body nav li{
+a:link{
     text-decoration: none;
     color: darkkhaki;
+}
+a:visited{
+    text-decoration: none;
+    color: darkslategray;
+}
+a:hover{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(110, 84, 17);
 }
