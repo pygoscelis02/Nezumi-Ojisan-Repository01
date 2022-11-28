@@ -1,28 +1,46 @@
 *{
-    background-color: darkolivegreen;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e1d8cee7;
 }
 
 *{
     font-family: メイリオ;
-    color:darkkhaki;
+    color:#382e22;
 }
-body nav li{
-    display: inline;
-    padding-right: 30px;
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
 }
+
+nav li{
+    list-style-type: none;
+}
+
 a:link{
     text-decoration: none;
-    color: darkkhaki;
+    color: #744724;
 }
+
 a:visited{
     text-decoration: none;
     color: darkslategray;
 }
+
 a:hover{
     text-decoration: none;
     color: darkgoldenrod;
 }
+
 a:active{
     text-decoration: none;
     color: rgb(110, 84, 17);
+}
+
+.wrapper{
+    width: fit-content;
+    padding: 0 50px;
+    margin: auto;
+    min-width: 565px;
 }
