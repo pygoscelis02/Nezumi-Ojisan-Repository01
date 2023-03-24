@@ -9,6 +9,21 @@
     color:#382e22;
 }
 
+/* ↓advice↓ */
+
+:root{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+/* ↑advice↑ */
+
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -43,4 +58,9 @@ a:active{
     padding: 0 50px;
     margin: auto;
     min-width: 580px;
+}
+@media screen and (max-width: 799px) {
+    :root{
+        font-size: 25px;
+    }
 }
